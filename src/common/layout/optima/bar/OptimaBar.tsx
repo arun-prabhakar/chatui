@@ -185,11 +185,11 @@ export function OptimaBar(props: { component: React.ElementType, currentApp?: Na
           </MenuButton>
 
           <Menu placement='bottom-end' sx={{ minWidth: 220 }}>
-            <ListItem>
+            {/* <ListItem>
               <Typography level='body-xs' sx={{ textTransform: 'uppercase' }}>
                 {Release.App.versionName}
               </Typography>
-            </ListItem>
+            </ListItem> */}
 
             {!!releaseNotesUrl && (
               <MenuItem onClick={handleShowReleaseNotes}>

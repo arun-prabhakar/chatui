@@ -175,15 +175,15 @@ export const navItems: {
       route: '/tokens',
       hideDrawer: true,
     },
-    {
-      name: 'Beam',
-      icon: ChatBeamIcon,
-      type: 'app',
-      route: '/dev/beam',
-      hideDrawer: true,
-      hideIcon: true,
-      isDev: true,
-    },
+    // {
+    //   name: 'Beam',
+    //   icon: ChatBeamIcon,
+    //   type: 'app',
+    //   route: '/dev/beam',
+    //   hideDrawer: true,
+    //   hideIcon: true,
+    //   isDev: true,
+    // },
     {
       name: 'Media Library',
       icon: ImageOutlinedIcon,
@@ -206,15 +206,15 @@ export const navItems: {
       hideIcon: hasNoChatLinkItems,
       hideNav: hasNoChatLinkItems,
     },
-    {
-      name: 'News',
-      icon: EventNoteOutlinedIcon,
-      iconActive: EventNoteIcon,
-      type: 'app',
-      route: '/news',
-      hideBar: true,
-      hideDrawer: true,
-    },
+    // {
+    //   name: 'News',
+    //   icon: EventNoteOutlinedIcon,
+    //   iconActive: EventNoteIcon,
+    //   type: 'app',
+    //   route: '/news',
+    //   hideBar: true,
+    //   hideDrawer: true,
+    // },
   ],
 
   // Modals
@@ -241,18 +241,18 @@ export const navItems: {
     //   icon: TwitterIcon,
     //   href: 'https://twitter.com',
     // },
-    {
-      type: 'extLink',
-      name: 'Discord',
-      icon: DiscordIcon,
-      href: Brand.URIs.SupportInvite,
-    },
-    {
-      type: 'extLink',
-      name: 'GitHub',
-      icon: GitHubIcon,
-      href: Brand.URIs.OpenRepo,
-    },
+    // {
+    //   type: 'extLink',
+    //   name: 'Discord',
+    //   icon: DiscordIcon,
+    //   href: Brand.URIs.SupportInvite,
+    // },
+    // {
+    //   type: 'extLink',
+    //   name: 'GitHub',
+    //   icon: GitHubIcon,
+    //   href: Brand.URIs.OpenRepo,
+    // },
   ],
 
 };
